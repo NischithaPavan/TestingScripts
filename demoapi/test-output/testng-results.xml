@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="42349" started-at="2019-06-23T07:50:36Z" finished-at="2019-06-23T07:51:18Z">
+    <groups>
+      <group name="All">
+        <method signature="LoginTest.testForgot(java.lang.String)[pri:0, instance:com.demoapi.testcases.LoginTest@18eed359]" name="testForgot" class="com.demoapi.testcases.LoginTest"/>
+      </group> <!-- All -->
+      <group name="regression">
+        <method signature="LoginTest.testForgot(java.lang.String)[pri:0, instance:com.demoapi.testcases.LoginTest@18eed359]" name="testForgot" class="com.demoapi.testcases.LoginTest"/>
+      </group> <!-- regression -->
+      <group name="smoke">
+        <method signature="LoginTest.testForgot(java.lang.String)[pri:0, instance:com.demoapi.testcases.LoginTest@18eed359]" name="testForgot" class="com.demoapi.testcases.LoginTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Regression" duration-ms="42349" started-at="2019-06-23T07:50:36Z" finished-at="2019-06-23T07:51:18Z">
+      <class name="com.demoapi.testcases.LoginTest">
+        <test-method status="PASS" signature="launchApp()[pri:0, instance:com.demoapi.testcases.LoginTest@18eed359]" name="launchApp" is-config="true" duration-ms="13163" started-at="2019-06-23T13:20:36Z" finished-at="2019-06-23T13:20:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApp -->
+        <test-method status="FAIL" signature="testForgot(java.lang.String)[pri:0, instance:com.demoapi.testcases.LoginTest@18eed359]" name="testForgot" duration-ms="27545" started-at="2019-06-23T13:20:49Z" description="To verify all the elements in home screens" finished-at="2019-06-23T13:21:17Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[T4SWCABYFM5LTCKZ]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.54 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-SSFTVS8', ip: '192.168.1.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\Sandeep\Desktop\appiumframework\demoapi\app\ApiDemos.apk, appPackage=io.appium.android.apis, deviceScreenSize=540x960, networkConnectionEnabled=true, noReset=false, warnings={}, appWaitPackage=io.appium.android.apis, appWaitActivity=io.appium.android.apis.ApiDemos, newCommandTimeOut=5, databaseEnabled=false, deviceName=4200302e066f75eb, platform=LINUX, deviceUDID=4200302e066f75eb, appActivity=io.appium.android.apis.ApiDemos, desired={app=C:\Users\Sandeep\Desktop\appiumframework\demoapi\app\ApiDemos.apk, noReset=false, platformVersion=8.1.0, automationName=Appium, newCommandTimeOut=5, platformName=Android, deviceName=SM-J260G}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-J260G, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 14887367-197d-4bc6-b3a2-3c5697ba6ebb
+*** Element info: {Using=xpath, value=//*[contains(@text,'Accessibility')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: An element could not be located on the page using the given search parameters. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 10.54 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.0.1', revision: '1969d75', time: '2016-10-18 09:49:13 -0700'
+System info: host: 'DESKTOP-SSFTVS8', ip: '192.168.1.218', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_161'
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=C:\Users\Sandeep\Desktop\appiumframework\demoapi\app\ApiDemos.apk, appPackage=io.appium.android.apis, deviceScreenSize=540x960, networkConnectionEnabled=true, noReset=false, warnings={}, appWaitPackage=io.appium.android.apis, appWaitActivity=io.appium.android.apis.ApiDemos, newCommandTimeOut=5, databaseEnabled=false, deviceName=4200302e066f75eb, platform=LINUX, deviceUDID=4200302e066f75eb, appActivity=io.appium.android.apis.ApiDemos, desired={app=C:\Users\Sandeep\Desktop\appiumframework\demoapi\app\ApiDemos.apk, noReset=false, platformVersion=8.1.0, automationName=Appium, newCommandTimeOut=5, platformName=Android, deviceName=SM-J260G}, platformVersion=8.1.0, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, takesScreenshot=true, javascriptEnabled=true, deviceModel=SM-J260G, platformName=Android, deviceManufacturer=samsung}]
+Session ID: 14887367-197d-4bc6-b3a2-3c5697ba6ebb
+*** Element info: {Using=xpath, value=//*[contains(@text,'Accessibility')]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:216)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:168)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:635)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:40)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:56)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:473)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElementByXPath(DefaultGenericMobileDriver.java:134)
+	at io.appium.java_client.AppiumDriver.findElementByXPath(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElementByXPath(AndroidDriver.java:1)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at io.appium.java_client.DefaultGenericMobileDriver.findElement(DefaultGenericMobileDriver.java:52)
+	at io.appium.java_client.AppiumDriver.findElement(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.findElement(AndroidDriver.java:1)
+	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.demoapi.testcases.LoginTest.testForgot(LoginTest.java:55)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1128)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:782)
+	at org.testng.TestRunner.run(TestRunner.java:632)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:366)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:361)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:319)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:268)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1244)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1169)
+	at org.testng.TestNG.run(TestNG.java:1064)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testForgot -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.demoapi.testcases.LoginTest@18eed359]" name="tearDown" is-config="true" duration-ms="378" started-at="2019-06-23T13:21:18Z" finished-at="2019-06-23T13:21:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.demoapi.testcases.LoginTest -->
+    </test> <!-- Regression -->
+  </suite> <!-- Suite -->
+</testng-results>

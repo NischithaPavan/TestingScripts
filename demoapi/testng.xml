@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	
+		<listener class-name="com.demoapi.Library.HtmlReportListener" />
+	</listeners>
+<!-- <parameter name="port" value="4723"></parameter> -->
+  <test name="Regression"  preserve-order="true">
+  <parameter name="device" value="T4SWCABYFM5LTCKZ"></parameter>
+  
+ 
+  
+  <classes >			
+			
+					
+			
+			<class name="com.demoapi.testcases.LoginTest" />
+			
+				
+</classes>
+
+ </test> <!-- Test -->
+</suite> <!-- Suite -->
+
